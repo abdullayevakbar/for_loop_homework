@@ -6,10 +6,11 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    for i in range(len(list1)):
-        list1[i][0] = list1[i][0].upper()
+    s = []
+    for i in list1:
+        s.append(i.title())
 
-    return list1
+    return s
 
 
 print(main(['rustam', 'diyor', 'alisher', 'bektosh']))
