@@ -7,6 +7,6 @@ def main(N):
         float: return  answer
     """
     s = 1.0
-    for i in range(1, N+1):
+    for i in range(1, N):
         s += 1/i
     return s
